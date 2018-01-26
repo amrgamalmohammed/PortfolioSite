@@ -1,28 +1,121 @@
 <!DOCTYPE html>
 <html lang="en">
-<head>
-    <!-- Required meta tags -->
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+    <head>
+        <!-- Required meta tags -->
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
 
-    <!-- Bootstrap CSS-->
-    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css"
-          integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm"
-          crossorigin="anonymous">
+        <!-- Define an icon -->
+        <link rel="icon" href="img/Logo.png">
 
-    <title>Amr Gamal: Portfolio</title>
-</head>
-<body>
+        <!-- Main CSS -->
+        <link rel="stylesheet" href="css/main.css">
 
-    <!-- Optional JavaScript -->
-    <script src="https://code.jquery.com/jquery-3.2.1.slim.min.js"
-            integrity="sha384-KJ3o2DKtIkvYIK3UENzmM7KCkRr/rE9/Qpg6aAZGJwFDMVNA/GpGFF93hXpG5KkN"
-            crossorigin="anonymous"></script>
-    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.9/umd/popper.min.js"
-            integrity="sha384-ApNbgh9B+Y1QKtv3Rn7W3mgPxhU9K/ScQsAP7hUibX39j7fakFPskvXusvfa0b4Q"
-            crossorigin="anonymous"></script>
-    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/js/bootstrap.min.js"
-            integrity="sha384-JZR6Spejh4U02d8jOt6vLEHfe/JQGiRRSQQxSfFWpi1MquVdAyjUar5+76PVCmYl"
-            crossorigin="anonymous"></script>
-</body>
+        <!-- Bootstrap CSS-->
+        <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css"
+              integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm"
+              crossorigin="anonymous">
+
+        <title>Amr Gamal: Portfolio</title>
+    </head>
+    <body>
+
+        <!-- Header -->
+        <header class="header header-margin">
+            <div class="container">
+                <div class="row">
+                    <div class="col-md-6">
+                        <div class="text-center text-md-left">
+                            <img src="img/Logo.png" class="img-fluid" alt="Amr Gamal Logo">
+                        </div>
+                    </div>
+                    <div class="col-md-6 text-center text-md-right">
+                        <h1>Amr Gamal</h1>
+                        <h4 class="text-uppercase font-weight-light font-grey">Software Engineer</h4>
+                    </div>
+                </div>
+                <hr class="double-divider">
+            </div>
+        </header>
+
+        <!-- Body -->
+        <main>
+            <div class="container">
+                <img src="img/Landscape.png" class="img-fluid" alt="Landscape image">
+                <h1 class="my-4">Featured work</h1>
+                <div class="row">
+                    <div class="col-lg-4 col-sm-6">
+                        <div class="card h-100">
+                            <a href="https://github.com/amrgamalmohammed/AssistMe">
+                                <img class="card-img-top" src="img/Assistme.png" alt="AssistMe">
+                            </a>
+                            <div class="card-body">
+                                <h4 class="card-title">
+                                    <a href="https://github.com/amrgamalmohammed/AssistMe">AssistMe</a>
+                                </h4>
+                                <p class="card-text">
+                                    Assist Me is an easy stylish android task organizer and reminder,
+                                    it allows you to choose from variety of events and customize your
+                                    own reminder as you like.
+                                </p>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-lg-4 col-sm-6">
+                        <div class="card h-100">
+                            <a href="https://github.com/amrgamalmohammed/ReliableUDP">
+                                <img class="card-img-top" src="img/Networks.png" alt="ReliableUDP">
+                            </a>
+                            <div class="card-body">
+                                <h4 class="card-title">
+                                    <a href="https://github.com/amrgamalmohammed/ReliableUDP">ReliableUDP</a>
+                                </h4>
+                                <p class="card-text">
+                                    ReliableUDP is an "Advanced Networks" curriculum project, it creates level
+                                    of reliability to the standard UDP by introducing flow, congestion control
+                                    and reordering of packets.
+                                </p>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-lg-4 col-sm-6">
+                        <div class="card h-100">
+                            <a href="https://github.com/amrgamalmohammed/MovieTrailerWebsite">
+                                <img class="card-img-top" src="img/Movietrailer.png" alt="Movie Trailer Website">
+                            </a>
+                            <div class="card-body">
+                                <h4 class="card-title">
+                                    <a href="https://github.com/amrgamalmohammed/MovieTrailerWebsite">Movie Trailer Website</a>
+                                </h4>
+                                <p class="card-text">
+                                    Movie trailer website is an Udacity project made during learning track for
+                                    the "Full Stack Developer" nanodegree program. It generates an HTML page
+                                    containing your favourite movies and their trailers.
+                                </p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </main>
+
+        <!-- footer -->
+        <footer class="py-5 my-4 back-grey">
+            <div class="container text-center">
+                <p>Copyright © Amr Gamal 2018 - 2019</p>
+                <small class="font-weight-light">Images obtained from Google.</small>
+            </div>
+        </footer>
+
+        <!-- Optional JavaScript -->
+        <script src="https://code.jquery.com/jquery-3.2.1.slim.min.js"
+                integrity="sha384-KJ3o2DKtIkvYIK3UENzmM7KCkRr/rE9/Qpg6aAZGJwFDMVNA/GpGFF93hXpG5KkN"
+                crossorigin="anonymous"></script>
+        <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.9/umd/popper.min.js"
+                integrity="sha384-ApNbgh9B+Y1QKtv3Rn7W3mgPxhU9K/ScQsAP7hUibX39j7fakFPskvXusvfa0b4Q"
+                crossorigin="anonymous"></script>
+        <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/js/bootstrap.min.js"
+                integrity="sha384-JZR6Spejh4U02d8jOt6vLEHfe/JQGiRRSQQxSfFWpi1MquVdAyjUar5+76PVCmYl"
+                crossorigin="anonymous"></script>
+    </body>
 </html>
