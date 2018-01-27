@@ -8,9 +8,9 @@
 }
 
 .back-grey {
-    background-color: #e0e0e0;
+    background: #e0e0e0;
 }
 
-hr.double-divider {
+.double-divider {
 	border-top: 3px double #000;
 }
